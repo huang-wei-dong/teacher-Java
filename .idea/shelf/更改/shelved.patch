@@ -1,0 +1,588 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1723799297745)
++++ b/.idea/.gitignore	(date 1723799297745)
+@@ -0,0 +1,8 @@
++# 默认忽略的文件
++/shelf/
++/workspace.xml
++# 基于编辑器的 HTTP 客户端请求
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1732153150313)
++++ b/.idea/vcs.xml	(date 1732153150313)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1724558731284)
++++ b/.idea/uiDesigner.xml	(date 1724558731284)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1725840973277)
++++ b/.idea/misc.xml	(date 1725840973277)
+@@ -0,0 +1,327 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="JavadocGenerationManager">
++    <option name="OUTPUT_DIRECTORY" value="D:/培训教学/JAVA/示例程序帮助文档" />
++    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="true" />
++    <option name="OPTION_DOCUMENT_TAG_VERSION" value="true" />
++    <option name="LOCALE" value="zh_CN" />
++  </component>
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectInspectionProfilesVisibleTreeState">
++    <entry key="Project Default">
++      <profile-state>
++        <expanded-state>
++          <State>
++            <id>Angular</id>
++          </State>
++          <State>
++            <id>Async 代码和 promiseJavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>Bean 验证</id>
++          </State>
++          <State>
++            <id>CSS</id>
++          </State>
++          <State>
++            <id>DOM 问题JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>ES2015 迁移协助JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>EditorConfig</id>
++          </State>
++          <State>
++            <id>GPathGroovy</id>
++          </State>
++          <State>
++            <id>Gradle</id>
++          </State>
++          <State>
++            <id>Groovy</id>
++          </State>
++          <State>
++            <id>JPA</id>
++          </State>
++          <State>
++            <id>JSP检查</id>
++          </State>
++          <State>
++            <id>JUnit</id>
++          </State>
++          <State>
++            <id>JVM 语言</id>
++          </State>
++          <State>
++            <id>Java</id>
++          </State>
++          <State>
++            <id>Java 5Java 语言级别迁移帮助Java</id>
++          </State>
++          <State>
++            <id>Java 7Java 语言级别迁移帮助Java</id>
++          </State>
++          <State>
++            <id>Java 8Java 语言级别迁移帮助Java</id>
++          </State>
++          <State>
++            <id>Java EE</id>
++          </State>
++          <State>
++            <id>Java 互操作问题Kotlin</id>
++          </State>
++          <State>
++            <id>Java 语言级别迁移帮助Java</id>
++          </State>
++          <State>
++            <id>Java 语言级迁移帮助Java</id>
++          </State>
++          <State>
++            <id>Java 语言级问题Java</id>
++          </State>
++          <State>
++            <id>JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>JavadocJava</id>
++          </State>
++          <State>
++            <id>Kotlin</id>
++          </State>
++          <State>
++            <id>MongoJS</id>
++          </State>
++          <State>
++            <id>OpenAPI 规范</id>
++          </State>
++          <State>
++            <id>Oracle</id>
++          </State>
++          <State>
++            <id>PostCSS</id>
++          </State>
++          <State>
++            <id>ReactJavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>SQL</id>
++          </State>
++          <State>
++            <id>SQL Server</id>
++          </State>
++          <State>
++            <id>Spring</id>
++          </State>
++          <State>
++            <id>Spring AOPSpring</id>
++          </State>
++          <State>
++            <id>Spring CoreSpring</id>
++          </State>
++          <State>
++            <id>Thymeleaf</id>
++          </State>
++          <State>
++            <id>TypeScriptJavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>XMLSpring CoreSpring</id>
++          </State>
++          <State>
++            <id>XPath</id>
++          </State>
++          <State>
++            <id>YAML</id>
++          </State>
++          <State>
++            <id>switch 语句问题JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>代码Spring CoreSpring</id>
++          </State>
++          <State>
++            <id>代码成熟度Java</id>
++          </State>
++          <State>
++            <id>代码样式问题Java</id>
++          </State>
++          <State>
++            <id>代码样式问题JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>克隆问题Java</id>
++          </State>
++          <State>
++            <id>其他问题Kotlin</id>
++          </State>
++          <State>
++            <id>内存Java</id>
++          </State>
++          <State>
++            <id>冗余结构Kotlin</id>
++          </State>
++          <State>
++            <id>初始化Java</id>
++          </State>
++          <State>
++            <id>反射访问Java</id>
++          </State>
++          <State>
++            <id>可移植性Java</id>
++          </State>
++          <State>
++            <id>可能引起混淆的代码结构Groovy</id>
++          </State>
++          <State>
++            <id>可能的 bugCSS</id>
++          </State>
++          <State>
++            <id>可能的 bugGroovy</id>
++          </State>
++          <State>
++            <id>可能的 bugJava</id>
++          </State>
++          <State>
++            <id>可能的 bugJavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>可能的 bugKotlin</id>
++          </State>
++          <State>
++            <id>可见性Java</id>
++          </State>
++          <State>
++            <id>命名约定Java</id>
++          </State>
++          <State>
++            <id>命名约定Kotlin</id>
++          </State>
++          <State>
++            <id>国际化Java</id>
++          </State>
++          <State>
++            <id>声明冗余Java</id>
++          </State>
++          <State>
++            <id>安全性Java</id>
++          </State>
++          <State>
++            <id>嵌入式性能Java</id>
++          </State>
++          <State>
++            <id>常规JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>并发注解问题Java</id>
++          </State>
++          <State>
++            <id>序列化问题Java</id>
++          </State>
++          <State>
++            <id>性能Java</id>
++          </State>
++          <State>
++            <id>控制流问题Groovy</id>
++          </State>
++          <State>
++            <id>控制流问题Java</id>
++          </State>
++          <State>
++            <id>控制流问题JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>数值问题Java</id>
++          </State>
++          <State>
++            <id>数据流Groovy</id>
++          </State>
++          <State>
++            <id>数据流Java</id>
++          </State>
++          <State>
++            <id>方法指标Groovy</id>
++          </State>
++          <State>
++            <id>最佳做法Gradle</id>
++          </State>
++          <State>
++            <id>有效性问题Gradle</id>
++          </State>
++          <State>
++            <id>有效性问题Groovy</id>
++          </State>
++          <State>
++            <id>有效性问题JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>样式Gradle</id>
++          </State>
++          <State>
++            <id>样式Groovy</id>
++          </State>
++          <State>
++            <id>样式问题Kotlin</id>
++          </State>
++          <State>
++            <id>注解Groovy</id>
++          </State>
++          <State>
++            <id>测试框架JVM 语言</id>
++          </State>
++          <State>
++            <id>测试框架Java</id>
++          </State>
++          <State>
++            <id>类结构Java</id>
++          </State>
++          <State>
++            <id>线程问题Groovy</id>
++          </State>
++          <State>
++            <id>线程问题Java</id>
++          </State>
++          <State>
++            <id>继承问题Java</id>
++          </State>
++          <State>
++            <id>详细或冗余的代码结构Java</id>
++          </State>
++          <State>
++            <id>资源管理Java</id>
++          </State>
++          <State>
++            <id>赋值问题Groovy</id>
++          </State>
++          <State>
++            <id>赋值问题Java</id>
++          </State>
++          <State>
++            <id>赋值问题JavaScript 和 TypeScript</id>
++          </State>
++          <State>
++            <id>迁移Kotlin</id>
++          </State>
++          <State>
++            <id>错误处理Java</id>
++          </State>
++        </expanded-state>
++        <selected-state>
++          <State>
++            <id>用户定义</id>
++          </State>
++        </selected-state>
++      </profile-state>
++    </entry>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dataSources.xml b/.idea/dataSources.xml
+new file mode 100644
+--- /dev/null	(date 1729164038451)
++++ b/.idea/dataSources.xml	(date 1729164038451)
+@@ -0,0 +1,29 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
++    <data-source source="LOCAL" name="student_manage@localhost" uuid="4a8b2d1c-306f-4a55-a518-3103430208a2">
++      <driver-ref>mysql.8</driver-ref>
++      <synchronize>true</synchronize>
++      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
++      <jdbc-url>jdbc:mysql://localhost:3306/student_manage</jdbc-url>
++      <jdbc-additional-properties>
++        <property name="com.intellij.clouds.kubernetes.db.host.port" />
++        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
++        <property name="com.intellij.clouds.kubernetes.db.container.port" />
++      </jdbc-additional-properties>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++    <data-source source="LOCAL" name="mall@localhost" uuid="27e21640-d31f-46b0-a460-15862d01ccc2">
++      <driver-ref>mysql.8</driver-ref>
++      <synchronize>true</synchronize>
++      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
++      <jdbc-url>jdbc:mysql://localhost:3306/mall</jdbc-url>
++      <jdbc-additional-properties>
++        <property name="com.intellij.clouds.kubernetes.db.host.port" />
++        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
++        <property name="com.intellij.clouds.kubernetes.db.container.port" />
++      </jdbc-additional-properties>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.name b/.idea/.name
+new file mode 100644
+--- /dev/null	(date 1725875312732)
++++ b/.idea/.name	(date 1725875312732)
+@@ -0,0 +1,1 @@
++MyArrayCollection.java
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1729662721565)
++++ b/.idea/encodings.xml	(date 1729662721565)
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/java/cn/jyd/Main.java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/java/cn/jyd/twelve/House.java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/java/cn/jyd/twelve/TestThreadMain.java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/test/java/cn/jyd/five/TestExtends.java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/test/java/cn/jyd/seven/TestLambda.java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/test/java/cn/jyd/six/TestCollection.java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/test/java/cn/jyd/six/TestGirlFriend.java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/test/java/cn/jyd/six/TestInstanceof.java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/test/java/cn/jyd/twelve/TestThread.java" charset="UTF-8" />
++    <file url="PROJECT" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file

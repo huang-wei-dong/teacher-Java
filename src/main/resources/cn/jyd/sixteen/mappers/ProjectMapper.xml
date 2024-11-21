@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jyd.sixteen.mappers.ProjectMapper">
+    <cache eviction="FIFO" readOnly="true" flushInterval="60000" size="512">
+    </cache>
+
+    <resultMap id="projectMap" type="cn.jyd.sixteen.entity.Project">
+        <id column="projectId" property="projectId"/>
+        <result column ="projectName" property="projectName"/>
+        <result column="amount" property="amount"/>
+        <result column="salesId" property="salesId"/>
+        <result column="date" property="date"/>
+        <!--1:1 一个项目一个销售人员-->
+        <association property="sales" javaType="cn.jyd.sixteen.entity.Employee" >
+            <id column="salesId" property="userId"/>
+            <result column="name" property="name"/>
+            <result column="sex"  property="sex"/>
+        </association>
+        <!--1:N一个项目多笔收款-->
+        <collection property="receive"  ofType="cn.jyd.sixteen.entity.Receive" >
+            <id column="Id" property="id" />
+            <result column="time" property="time" />
+            <result column="money" property="money" />
+            <result column="projectId" property="projectId" />
+        </collection>
+    </resultMap>
+
+    <select id="getProjectById" resultMap="projectMap" >
+        select project.*,employee.*,receive.*
+        from project inner join employee on salesId=userId left join receive on project.projectId=receive.projectId
+        where project.projectId=#{projectId}
+    </select>
+    <!--多条件查询，使用动态SQL语句-->
+    <select id="getProjectByFilter" resultMap="projectMap" >
+        select project.*,employee.*,receive.*
+        from project inner join employee on salesId=userId left join receive on project.projectId=receive.projectId
+        <where>
+            <if test="projectId!=null and projectId!=''">
+                and project.projectId=#{projectId}
+            </if>
+            <if test="projectName!=null and projectName!=''">
+                and project.projectName like CONCAT('%', #{projectName}, '%')
+            </if>
+            <if test="salesId!=null and salesId!=''">
+                and project.salesId=#{salesId}
+            </if>
+        </where>
+    </select>
+
+    <update id="updateProject" parameterType="cn.jyd.sixteen.entity.Project">
+        UPDATE project
+        set
+            projectName=#{projectName},
+            amount=#{amount},
+            salesId=#{salesId},
+            date=#{date}
+        where projectId=#{projectId}
+    </update>
+<!--    useGeneratedKeys:自动增长主键，keyProperty：主键的列-->
+    <insert id="insertProject" parameterType="cn.jyd.sixteen.entity.Project"
+            useGeneratedKeys="true" keyProperty="projectId"  >
+        INSERT INTO project(
+            projectName,
+            amount,
+            salesId,
+            date)
+        values ( #{projectName},
+                 #{amount},
+                 #{salesId},
+                 #{date})
+    </insert>
+    <delete id="deleteProject" parameterType="int">
+        delete from project where projectId=#{projectId}
+    </delete>
+
+</mapper>

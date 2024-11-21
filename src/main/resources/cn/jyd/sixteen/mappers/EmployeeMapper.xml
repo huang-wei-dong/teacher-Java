@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jyd.sixteen.mappers.EmployeeMapper">
+
+    <resultMap id="EmployeeMap" type="cn.jyd.sixteen.entity.Employee">
+        <id column="userId" property="userId" />
+        <result column="name" property="name" />
+        <result column="sex" property="sex" />
+        <!--1:N 一个员工多个项目-->
+        <collection ofType="cn.jyd.sixteen.entity.Project" property="projectList">
+            <id column="userId" property="salesId" />
+            <result column="projectName" property="projectName" />
+            <result column="amount" property="amount" />
+        </collection>
+    </resultMap>
+
+    <select id="getEmployeeById" resultMap="EmployeeMap">
+        select userId,name,sex,projectId,projectName,amount
+        from employee  inner join project on userId=salesId
+        where userId=#{userId}
+    </select>
+</mapper>

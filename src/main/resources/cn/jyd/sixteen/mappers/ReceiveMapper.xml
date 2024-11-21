@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jyd.sixteen.mappers.ReceiveMapper">
+     <select id="getReceiveById" resultType="cn.jyd.sixteen.entity.Receive">
+        select * from receive where id=#{id}
+    </select>
+
+    <select id="getReceiveAll" resultType="cn.jyd.sixteen.entity.Receive">
+        select * from receive
+    </select>
+    <insert id="insertReceive" parameterType="cn.jyd.sixteen.entity.Receive">
+        insert into receive(time,money,projectId) values(#{time},#{money},#{projectId})
+    </insert>
+
+    <update id="updateMoneyByIds">
+        update receive set money=money+#{moneyadd} ${ew.customSqlSegment}
+    </update>
+
+</mapper>
