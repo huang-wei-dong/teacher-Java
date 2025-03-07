@@ -11,7 +11,7 @@ public interface Shapes {
     double perimeter();
     /**
      * 打印信息
-     * 默认实现，java 8后的新特性
+     * 默认实现，java 9后的新特性
      */
     default void printMessage(){
         System.out.println("图形面积："+area()+",图形周长："+perimeter());

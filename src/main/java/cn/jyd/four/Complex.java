@@ -19,7 +19,7 @@ public class Complex {
         return new Complex(this.real + c.real, this.imag + c.imag);
     }
     //减法
-    public Complex sub(Complex c) {
+    public Complex subtraction(Complex c) {
         return new Complex(this.real - c.real, this.imag - c.imag);
     }
 

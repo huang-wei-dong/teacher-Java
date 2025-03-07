@@ -6,8 +6,25 @@
  * */
 package cn.jyd;
 
+import cn.jyd.seven.Circle;
+import cn.jyd.seven.ComputeShapes;
+import cn.jyd.seven.Rectangle;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("中文");
+        Circle c=new Circle(5);
+        ComputeShapes cs=new ComputeShapes(c);
+        cs.showAreaAndPerimeter();
+
+        Rectangle r=new Rectangle(5,10);
+        cs=new ComputeShapes(r);
+        cs.showAreaAndPerimeter();
+
+
+        long[] a={1,2,3,4};
+        long[] b={100,200,300,400,500};
+        b=a;
+        System.out.println("数组b的长度："+b.length);
+        System.out.println("b[0]="+b[0]);
     }
 }

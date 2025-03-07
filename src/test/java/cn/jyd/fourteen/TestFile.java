@@ -2,6 +2,11 @@ package cn.jyd.fourteen;
 
 import cn.jyd.four.Person;
 import org.junit.Test;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.stream.Stream;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -232,7 +237,7 @@ public class TestFile {
             inChar.read(backChar);
             System.out.println(new String(backChar));
         }catch(IOException e){
-            System.out.println(e.toString());
+            System.out.println(e);
         }
     }
     /**
@@ -388,5 +393,36 @@ public class TestFile {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+
+
+    @Test
+    /**
+     * 统计所有.Java文件代码行数
+     */
+    public void testTotaleCodeLine() {
+        String folderPath = "src\\";
+        AtomicLong totalLineCount = new AtomicLong();
+        try (Stream<Path> paths = Files.walk(Paths.get(folderPath))) {
+            paths.filter(Files::isRegularFile)
+                    .forEach(path -> {
+                        if (path.toString().endsWith(".java")) {
+                            //文件行数
+                            long lineCount = 0;
+                            try {
+                                try (Stream<String> lines = Files.lines(path)) {
+                                    lineCount = lines.count();
+                                    totalLineCount.addAndGet(lineCount);
+                                }
+                            }catch (IOException e){
+                                e.printStackTrace();
+                            }
+                        }
+                    });
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("总共的行数为: " + totalLineCount);
     }
 }

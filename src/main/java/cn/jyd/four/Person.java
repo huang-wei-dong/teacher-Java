@@ -31,14 +31,16 @@ public  class  Person implements Serializable, Work {
     }
 
     // 内部类,地址
-    class Address{
+    final class Address{
         private String street;//街道
         private String city;//城市
         private String province;//省份
-        public Address(String street, String city, String province) {
+        private static final String country="中国";
+        public  Address(String street, String city, String province) {
             this.street = street;
             this.city = city;
             this.province = province;
+            setCity(city);
         }
 
         public String getStreet() {

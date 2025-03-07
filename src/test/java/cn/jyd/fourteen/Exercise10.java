@@ -84,4 +84,31 @@ public class Exercise10 {
             System.out.println(e.toString());
         }
     }
+    /**
+     * 10.3.2，page 345
+     */
+    @Test
+    public void testInputStreamRead() {
+        int n=-1;
+        File f=new File("D:\\培训教学\\JAVA\\文件操作示例\\hello.txt");
+        byte[] a="abcd".getBytes();
+        try{
+            FileOutputStream out=new FileOutputStream(f);
+            out.write(a);
+            out.close();
+            FileInputStream in=new FileInputStream(f);
+            byte[] tom=new byte[3];
+            int m=in.read(tom,0,3);
+            System.out.println(m);          //代码1,输出：3
+            String s=new String(tom,0,m);
+            System.out.println(s);          //代码2,输出：abc
+            m=in.read(tom,0,3);
+            System.out.println(m);          //代码3,输出：1
+            s=new String(tom,0,m);
+            System.out.println(s);          //代码4,输出：dbc
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 }

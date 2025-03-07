@@ -120,7 +120,7 @@ public class TestThreadMain {
      */
     private static void testThreadPerformance() {
         long count = 1000000000L;//循环次数
-        int threadCount = 10;//线程数
+        int threadCount = 1;//线程数
 
         Performance performance = new Performance();
         performance.setCount(count);
@@ -137,7 +137,6 @@ public class TestThreadMain {
 
         Thread thread=new Thread(new Runnable(){
             public void run(){
-                int threadCount = 10;
                 Thread[] threads = new Thread[threadCount];
 
                 for (int i = 0; i < threadCount; i++) {
@@ -145,21 +144,21 @@ public class TestThreadMain {
                     per.setCount(count / threadCount);
                     threads[i] = new Thread(per);
                 }
+                long startTime= System.currentTimeMillis();
                 for (int i = 0; i < threadCount; i++) {
                     threads[i].start();
                 }
-                while (Performance.getLock()>0){}
+                while (Performance.getLock().get()!=0){}
+                long endTime= System.currentTimeMillis();
+                System.out.println(threadCount + "个线程," + count + "次循环操作，耗时：" + (endTime - startTime) + "ms");
             }
         });
-        startTime= System.currentTimeMillis();
         try {
             thread.start();
             thread.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        endTime = System.currentTimeMillis();
-        System.out.println(threadCount + "个线程," + count + "次循环操作，耗时：" + (endTime - startTime) + "ms");
     }
 }
 

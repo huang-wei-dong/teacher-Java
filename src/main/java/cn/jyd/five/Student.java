@@ -23,6 +23,8 @@ public class Student extends Person implements Comparable<Student> {
         this.score = score;
     }
 
+    private ExCollection<Score> scoresDB;
+
     public Student() { }
 
     /**

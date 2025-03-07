@@ -92,7 +92,7 @@ public class StudentMapper {
      * @param cardId 学生身份证
      * @return  返回影响的行数
      */
-    public int deleteStudent(String cardId) {
+    public int deleteStudentById(String cardId) {
         String sql="delete from student where card_Id='"+cardId+"'";
         return MysqlHelp.getInstance().executeUpdate(sql);
     }

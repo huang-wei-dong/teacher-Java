@@ -5,11 +5,12 @@ import java.sql.*;
  * Mysql数据库连接工具类
  */
 public class MysqlHelp {
-    private String url;
+    private String uri;
     private String user;
     private String password;
     private String driver;
     private String useSSL;
+
     private static MysqlHelp instance=null;
     // 单例模式
     public static MysqlHelp getInstance(){
@@ -23,12 +24,11 @@ public class MysqlHelp {
      * 注意其中的url、user、password需要根据自己的MySql配置进行更改
      */
     private MysqlHelp(){
-        url = "jdbc:mysql://localhost:3306/student_manage?";
+        uri = "jdbc:mysql://localhost:3306/student_manage?";
         user = "root";
         password = "123456";
         driver = "com.mysql.cj.jdbc.Driver";
         useSSL = "useSSl=false&serverTimezone=GMT&characterEncoding=utf-8";
-        instance = this;
     }
 
     /**
@@ -36,8 +36,11 @@ public class MysqlHelp {
      * @return 数据库连接
      */
     private Connection getConnection(){
-        try {
-            return DriverManager.getConnection(url+useSSL,user,password);
+        try{//加载驱动
+            Class.forName(driver);
+        }catch(Exception e){}
+        try {//获取连接
+            return DriverManager.getConnection(uri+useSSL,user,password);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

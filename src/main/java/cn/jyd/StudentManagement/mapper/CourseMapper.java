@@ -66,7 +66,7 @@ public class CourseMapper {
     /**
      * 删除课程信息
      */
-    public int deleteCourse(int courseId) {
+    public int deleteCourseById(int courseId) {
         String sql = "delete from course where courseId = " + courseId;
         return MysqlHelp.getInstance().executeUpdate(sql);
     }
