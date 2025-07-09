@@ -5,42 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67786170-2030-40e4-8020-df1256572670" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/exam/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/exam/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/exam/Gearbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/exam/SchoolTeacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/seven/ComputeShapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/Factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/Factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/Factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/Factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/PrinterSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/adapterPattern/AdvancedMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/adapterPattern/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/adapterPattern/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/adapterPattern/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/adapterPattern/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/adapterPattern/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/observerPattern/NewsPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/observerPattern/NewsReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/observerPattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/observerPattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/strategyPattern/AlipayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/strategyPattern/PaymentContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/strategyPattern/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/strategyPattern/WechatPayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/templateMethod/EssayGrading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/templateMethod/ExamGradingTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/templateMethod/MultipleChoiceGrading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/templateMethod/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/designPatterns/templateMethod/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/engineering/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/designPattern/ExamGradingTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/designPattern/ObserverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/designPattern/PrinterSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/designPattern/ShapeFactoryTestg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/designPattern/StrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/designPattern/adapterPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/engineering/MyDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/engineering/WhiteBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/two/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/two/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testMyDate.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/StudentManagement/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/StudentManagement/mapper/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/StudentManagement/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/StudentManagement/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/five/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/five/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/four/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/four/Complex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/four/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/four/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/seven/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/seven/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/seven/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/seven/Shapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/six/AmericanGirlFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/six/AmericanGirlFriend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/six/Boy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/six/Boy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/sixteen/MysqlHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/sixteen/MysqlHelp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/twelve/Performance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/twelve/Performance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/jyd/twelve/TestThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/jyd/twelve/TestThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/jyd/four/TestComplex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/four/TestComplex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/jyd/fourteen/Exercise10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/fourteen/Exercise10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/jyd/fourteen/TestFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/fourteen/TestFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/jyd/fourteen/TestIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/fourteen/TestIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cn/jyd/sixteen/TestSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/jyd/sixteen/TestSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\myhwd\teaching\htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,23 +80,27 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2kja9gjRWnyMZyuayi0f2CxeJgU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;JUnit.Demo.printPrefectNumber.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.EmployeeTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.EmployeeTest.getEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ExamGradingTemplateTest.examGradingTemplateTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.Exercise.Exercise1.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.Exercise10.exercise1041.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.Exercise10.testBufferedStream.executor&quot;: &quot;Run&quot;,
@@ -97,13 +113,35 @@
     &quot;JUnit.FifteenTest.testSortStudent.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FiveTest.testSort.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.FiveTest.testSortStudent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MyDateTest.getTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.myDateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.myDateTest10.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.myDateTest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.myDateTest3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.myDateTest4 (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.myDateTest4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.myDateTest5.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MyDateTest.myDateTest6.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.myDateTest7.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.MyDateTest.myDateTest8.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.testNextDay.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.testNextDay3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.testNextDay34.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.testNextDay4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.testNextDay5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyDateTest.testNextDayAssertions.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ObserverTest.observerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrinterSingletonTest.singletonTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ProjectTest.deleteTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ProjectTest.getProjectByIdTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ProjectTest.insertTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ProjectTest.updateTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ReceiveTest.insertReceiveTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ReceiveTest.selectById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShapeFactoryTestg.createShapeTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SortSearchTest.testSelectSort.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StrategyTest.strategyTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.Test.main1.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestAccount.testAccount.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestAccount.testAccount2.executor&quot;: &quot;Run&quot;,
@@ -318,6 +356,8 @@
     &quot;JUnit.TestWork.testWork.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TestWork.testWork2.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.Testladder.testLadder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.adapterPatternTest.adapterPatternTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.teaching中的jyd.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.testThree.testDelete.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.testThree.testDoWhile.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.testThree.testEnhanceFor.executor&quot;: &quot;Run&quot;,
@@ -334,6 +374,7 @@
     &quot;Maven.E.executor&quot;: &quot;Run&quot;,
     &quot;Maven.E4.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.PrinterSingletonTest.executor&quot;: &quot;Run&quot;,
     &quot;Maven.SchoolTeacher.executor&quot;: &quot;Run&quot;,
     &quot;Maven.Test.executor&quot;: &quot;Run&quot;,
     &quot;Maven.TestThreadMain.executor&quot;: &quot;Run&quot;,
@@ -372,7 +413,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.28058878&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Code Search&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/myhwd/teaching/src/test/java/cn/jyd/seven/TestArrayTools.java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
     &quot;应用程序.Main.executor&quot;: &quot;Coverage&quot;
@@ -384,11 +425,18 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.jyd.designPatterns.templateMethod" />
+      <recent name="cn.jyd.designPatterns.observerPattern" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\myhwd\teaching\src\main\resources\cn\jyd\sixteen\mappers" />
       <recent name="C:\Users\myhwd\teaching\src\test\java\cn\jyd\sixteen" />
       <recent name="C:\Users\myhwd\teaching\src\main\java\cn\jyd\sixteen" />
       <recent name="C:\Users\myhwd\teaching\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\myhwd\teaching\src\test\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.jyd.sixteen" />
@@ -406,98 +454,117 @@
       <command value="mvn  install:install-file       -Dfile=C:/Users/myhwd/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1-sources.jar       -DgroupId=com.google.protobuf       -DartifactId=protobuf-java       -Dversion=3.25.1       -Dpackaging=jar" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestFile.testTotaleCodeLine">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.jyd.exam.Test" />
+  <component name="RunManager" selected="JUnit.adapterPatternTest.adapterPatternTest">
+    <configuration name="ExamGradingTemplateTest.examGradingTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teaching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.jyd.exam.*" />
+          <option name="PATTERN" value="cn.jyd.designPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise10.testInputStreamRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="teaching" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.jyd.fourteen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.jyd.fourteen" />
-      <option name="MAIN_CLASS_NAME" value="cn.jyd.fourteen.Exercise10" />
-      <option name="METHOD_NAME" value="testInputStreamRead" />
+      <option name="PACKAGE_NAME" value="cn.jyd.designPattern" />
+      <option name="MAIN_CLASS_NAME" value="cn.jyd.designPattern.ExamGradingTemplateTest" />
+      <option name="METHOD_NAME" value="examGradingTemplateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCourse.testGetAllCourseWithScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyDateTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="teaching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.jyd.StudentManagement.*" />
+          <option name="PATTERN" value="cn.jyd.engineering.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.jyd.StudentManagement" />
-      <option name="MAIN_CLASS_NAME" value="cn.jyd.StudentManagement.TestCourse" />
-      <option name="METHOD_NAME" value="testGetAllCourseWithScore" />
+      <option name="PACKAGE_NAME" value="cn.jyd.engineering" />
+      <option name="MAIN_CLASS_NAME" value="cn.jyd.engineering.MyDateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObserverTest.observerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teaching" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jyd.designPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.jyd.designPattern" />
+      <option name="MAIN_CLASS_NAME" value="cn.jyd.designPattern.ObserverTest" />
+      <option name="METHOD_NAME" value="observerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFile.testCodeLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShapeFactoryTestg.createShapeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teaching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.jyd.fourteen.*" />
+          <option name="PATTERN" value="cn.jyd.designPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.jyd.fourteen" />
-      <option name="MAIN_CLASS_NAME" value="cn.jyd.fourteen.TestFile" />
-      <option name="METHOD_NAME" value="testCodeLine" />
+      <option name="PACKAGE_NAME" value="cn.jyd.designPattern" />
+      <option name="MAIN_CLASS_NAME" value="cn.jyd.designPattern.ShapeFactoryTestg" />
+      <option name="METHOD_NAME" value="createShapeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFile.testTotaleCodeLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyTest.strategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teaching" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.jyd.fourteen.*" />
+          <option name="PATTERN" value="cn.jyd.designPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.jyd.fourteen" />
-      <option name="MAIN_CLASS_NAME" value="cn.jyd.fourteen.TestFile" />
-      <option name="METHOD_NAME" value="testTotaleCodeLine" />
+      <option name="PACKAGE_NAME" value="cn.jyd.designPattern" />
+      <option name="MAIN_CLASS_NAME" value="cn.jyd.designPattern.StrategyTest" />
+      <option name="METHOD_NAME" value="strategyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="adapterPatternTest.adapterPatternTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teaching" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.jyd.designPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.jyd.designPattern" />
+      <option name="MAIN_CLASS_NAME" value="cn.jyd.designPattern.adapterPatternTest" />
+      <option name="METHOD_NAME" value="adapterPatternTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestFile.testCodeLine" />
-      <item itemvalue="JUnit.TestFile.testTotaleCodeLine" />
-      <item itemvalue="JUnit.TestCourse.testGetAllCourseWithScore" />
-      <item itemvalue="JUnit.Exercise10.testInputStreamRead" />
-      <item itemvalue="应用程序.Test" />
+      <item itemvalue="JUnit.MyDateTest" />
+      <item itemvalue="JUnit.adapterPatternTest.adapterPatternTest" />
+      <item itemvalue="JUnit.ExamGradingTemplateTest.examGradingTemplateTest" />
+      <item itemvalue="JUnit.ObserverTest.observerTest" />
+      <item itemvalue="JUnit.ShapeFactoryTestg.createShapeTest" />
+      <item itemvalue="JUnit.StrategyTest.strategyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestFile.testTotaleCodeLine" />
-        <item itemvalue="JUnit.TestFile.testCodeLine" />
-        <item itemvalue="JUnit.TestCourse.testGetAllCourseWithScore" />
-        <item itemvalue="应用程序.Test" />
-        <item itemvalue="JUnit.Exercise10.testInputStreamRead" />
+        <item itemvalue="JUnit.adapterPatternTest.adapterPatternTest" />
+        <item itemvalue="JUnit.ExamGradingTemplateTest.examGradingTemplateTest" />
+        <item itemvalue="JUnit.StrategyTest.strategyTest" />
+        <item itemvalue="JUnit.ObserverTest.observerTest" />
+        <item itemvalue="JUnit.ShapeFactoryTestg.createShapeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -510,6 +577,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\myhwd\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="67786170-2030-40e4-8020-df1256572670" name="更改" comment="" />
@@ -672,12 +742,93 @@
       <workItem from="1735025975700" duration="140000" />
       <workItem from="1736159209831" duration="1226000" />
       <workItem from="1739761393653" duration="2421000" />
-      <workItem from="1741332109928" duration="1138000" />
+      <workItem from="1741332109928" duration="2117000" />
+      <workItem from="1741344868238" duration="1044000" />
+      <workItem from="1741345925526" duration="1244000" />
+      <workItem from="1741399503051" duration="2894000" />
+      <workItem from="1742014469717" duration="343000" />
+      <workItem from="1745821463210" duration="170000" />
+      <workItem from="1745891723420" duration="5828000" />
+      <workItem from="1745985941219" duration="656000" />
+      <workItem from="1745993666708" duration="2315000" />
+      <workItem from="1746610113520" duration="202000" />
+      <workItem from="1746610335897" duration="1648000" />
+      <workItem from="1746668521609" duration="1288000" />
+      <workItem from="1746685107748" duration="458000" />
+      <workItem from="1746689107010" duration="6818000" />
+      <workItem from="1746757282894" duration="4986000" />
+      <workItem from="1746772820321" duration="8106000" />
+      <workItem from="1746783794595" duration="1172000" />
+      <workItem from="1746945601895" duration="1859000" />
+      <workItem from="1747096363195" duration="3780000" />
+      <workItem from="1747194457933" duration="2549000" />
+      <workItem from="1747278025862" duration="3711000" />
+      <workItem from="1747360836888" duration="16000" />
+      <workItem from="1747701855978" duration="10255000" />
+      <workItem from="1747787718418" duration="25000" />
+      <workItem from="1747807869946" duration="3475000" />
+      <workItem from="1747819631097" duration="567000" />
+      <workItem from="1747820364882" duration="864000" />
+      <workItem from="1747872227483" duration="23000" />
+      <workItem from="1749429811290" duration="13451000" />
+      <workItem from="1749707947577" duration="16000" />
+      <workItem from="1751506362590" duration="123000" />
+      <workItem from="1751506495711" duration="12066000" />
+      <workItem from="1751528691732" duration="649000" />
+      <workItem from="1751676725279" duration="5598000" />
+      <workItem from="1751768495979" duration="3356000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="c89c2c48-672d-463b-8cb9-a174a2e9f501" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="c89c2c48-672d-463b-8cb9-a174a2e9f501">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="V0.5.3,修改hello.txt文件" />
+    <MESSAGE value="V0.5.3,修改hello.txt文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.5.3,修改hello.txt文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -704,8 +855,23 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/teaching$MyDateTest.ic" NAME="MyDateTest 覆盖结果" MODIFIED="1749452287457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>cn.jyd.engineering.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/MyArrayCollection_java$TestExCollection_testExCollectionStandFunction.ic" NAME="TestExCollection.testExCollectionStandFunction 覆盖结果" MODIFIED="1726972914066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>cn.jyd.fifteen.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/teaching$MyDateTest_myDateTest7.ic" NAME="MyDateTest.myDateTest7 覆盖结果" MODIFIED="1746782870856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>cn.jyd.engineering.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/teaching$MyDateTest_myDateTest5.ic" NAME="MyDateTest.myDateTest5 覆盖结果" MODIFIED="1746782480080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>cn.jyd.engineering.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/teaching$MyDateTest_myDateTest4.ic" NAME="MyDateTest.myDateTest4 覆盖结果" MODIFIED="1747280765833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>cn.jyd.engineering.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/teaching$MyDateTest_myDateTest6.ic" NAME="MyDateTest.myDateTest6 覆盖结果" MODIFIED="1746782583595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>cn.jyd.engineering.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/teaching$Main.ic" NAME="Main 覆盖结果" MODIFIED="1723799400873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>jyd.cn.*</FILTER>
